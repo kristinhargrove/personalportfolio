@@ -1,0 +1,136 @@
+html,
+body {
+  background-color: #ece7e1;
+  color: #1a1818;
+  text-align: center;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 18px;
+  align-items: center;
+  /* line-height: 1.6; */
+}
+
+a {
+  color: #1a1818;
+  text-decoration: underline;
+}
+
+.top-container {
+  margin: auto 250px;
+}
+
+.intro-text {
+  font-size: 84px;
+  margin-bottom: 0px;
+}
+
+.description {
+  font-weight: 300;
+  letter-spacing: 0.25rem;
+  font-size: 24px;
+}
+
+.header-text {
+  font-size: 48px;
+  margin-bottom: 25px;
+  font-weight: 500;
+}
+
+.sub-header {
+  font-size: 24px;
+  margin-bottom: 25px;
+  font-weight: 600;
+  text-align: center;
+}
+
+button {
+  background-color: #5e5343;
+  color: #efe9e4;
+  padding: 15px 50px;
+  border-radius: 2px;
+  font-size: 16px;
+}
+
+.middle-container {
+  text-align: center;
+  margin: auto;
+}
+
+.profile {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+.profile-pic {
+  border-radius: 5%;
+  justify-content: space-around;
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+}
+
+.about-me {
+  padding: 50px;
+}
+
+.bio {
+  text-align: left;
+  padding: 50px;
+}
+
+.skills {
+  text-align: center;
+  padding: 50px;
+  display: flex;
+  font-size: 18px;
+  margin: auto;
+}
+
+.skills-list {
+  width: 50%;
+  font-size: 20px;
+}
+
+.ul-list {
+  list-style-type: circle;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  display: inline-block;
+}
+
+.portfolio {
+  display: flex;
+}
+
+.work-example {
+  padding: 50px;
+  text-align: center;
+  display: flex;
+}
+
+.sample-work {
+  width: 50%;
+  padding: 25px;
+  text-align: left;
+}
+
+.sample-work-scroll {
+  width: 600px;
+  height: 500px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  text-align: center;
+  padding: 20px;
+  margin-top: 100px;
+  width: 50%;
+}
+
+.bottom-container {
+  text-align: center;
+  margin: auto;
+  padding: 50px;
+  line-height: 1.8;
+}
