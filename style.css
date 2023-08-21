@@ -17,6 +17,10 @@ a {
   text-decoration: underline;
 }
 
+a:hover {
+  background-color: hotpink;
+}
+
 .top-container {
   margin: auto 250px;
 }
