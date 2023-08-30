@@ -7,9 +7,12 @@ body {
   font-size: 18px;
   align-items: center;
   /* line-height: 1.6; */
-  max-width: 100%;  
+  max-width: 100%;
   overflow-x: hidden;
   line-height: 1.2;
+  width: 100%;
+  margin: auto;
+
 }
 
 a {
@@ -23,6 +26,7 @@ a:hover {
 
 .top-container {
   margin: auto 250px;
+  width: 75%;
 }
 
 .intro-text {
@@ -65,11 +69,11 @@ button {
 }
 
 .profile {
-  width: 100%;
   margin: auto;
   display: flex;
   justify-content: center;
   padding: 50px;
+  width: 75%;
 }
 
 .profile-pic {
@@ -113,6 +117,8 @@ button {
 
 .portfolio {
   display: flex;
+  width: 75%;
+  margin: auto;
 }
 
 .work-example {
